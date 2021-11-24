@@ -1,0 +1,14 @@
+site_name: EvoSpike Docs
+site_url: https://evospike.com
+
+nav:
+    - Home: index.md
+    - 'Tools Evopsike':
+        - Home: tools-evopsike/index.md
+        - Emails: tools-evopsike/emails.md
+        - Notificaciones: tools-evopsike/notificaciones-push.md
+        - Thumbnails: tools-evopsike/thumbnails.md
+        - Variantes: tools-evopsike/variantes-de-productos.md
+        - Webhooks: tools-evopsike/webhooks.md
+
+theme: readthedocs
