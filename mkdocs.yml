@@ -11,4 +11,4 @@ nav:
         - Variantes: tools-evopsike/variantes-de-productos.md
         - Webhooks: tools-evopsike/webhooks.md
 
-theme: readthedocs
+theme: material

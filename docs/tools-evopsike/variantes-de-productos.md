@@ -14,27 +14,27 @@ curl --request POST
      --header 'Content-Type: application/*+json'
      --data 
      {
-         ProductoID: "P01",
-         Cantidad: 10,
-         Imagenes: ["imagen1.png", "imagen2.png"],
-         Variantes: 
+         "ProductoID": "P01",
+         "Cantidad": 10,
+         "Imagenes": ["imagen1.png", "imagen2.png"],
+         "Variantes": 
          [
            {
-             SKU: "P01-01",
-             CaracteristicasAtributos: 
+             "SKU": "P01-01",
+             "CaracteristicasAtributos": 
              [
                 {
-                  AtributoNombre: "Size", 
-                  ValorId: "S"
+                  "AtributoNombre": "Size", 
+                  "ValorId": "S"
                 },
                 {
-                  AtributoNombre: "Color", 
-                  ValorId: "Rojo"
+                  "AtributoNombre": "Color", 
+                  "ValorId": "Rojo"
                 }
              ],
-             VarianteTypo: "S . Rojo",
-             Imagen: "imagen1.png",
-             Cantidad: 5
+             "VarianteTypo": "S . Rojo",
+             "Imagen": "imagen1.png",
+             "Cantidad": 5
            }
          ]
      }

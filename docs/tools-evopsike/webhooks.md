@@ -12,7 +12,7 @@ curl --request POST
      --header 'Content-Type: application/*+json'
      --data 
      {
-         propiedad1: "valor1",
-         propiedad2: "valor2",
+         "propiedad1": "valor1",
+         "propiedad2": "valor2",
      }
 ```
