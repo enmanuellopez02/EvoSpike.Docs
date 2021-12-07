@@ -6,7 +6,7 @@ para generar variaciones de un producto, haga click sobre el botón `Crear varia
 
 para enviar la información a su projecto, seleccione el webhook con la dirección url de su projecto donde seran enviado los datos.
 
-## Ejemplo
+## Ejemplo de como seran enviado los datos a tu webhook
 
 ```
 curl --request POST
@@ -14,7 +14,28 @@ curl --request POST
      --header 'Content-Type: application/*+json'
      --data 
      {
-         propiedad1: "valor1",
-         propiedad2: "valor2",
+         ProductoID: "P01",
+         Cantidad: 10,
+         Imagenes: ["imagen1.png", "imagen2.png"],
+         Variantes: 
+         [
+           {
+             SKU: "P01-01",
+             CaracteristicasAtributos: 
+             [
+                {
+                  AtributoNombre: "Size", 
+                  ValorId: "S"
+                },
+                {
+                  AtributoNombre: "Color", 
+                  ValorId: "Rojo"
+                }
+             ],
+             VarianteTypo: "S . Rojo",
+             Imagen: "imagen1.png",
+             Cantidad: 5
+           }
+         ]
      }
 ```
