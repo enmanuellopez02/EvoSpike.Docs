@@ -1,11 +1,11 @@
-# Bienvenido a EvoSpike Docs
+# Welcome to EvoSpike Docs
 
-EvoSpike ofrece una solución integral de servicios fácil de usar y con capacidad para crecer al ritmo de tu negocio.
+EvoSpike offers a comprehensive service solution that is easy to use and has the ability to grow with your business.
 
-## Nos tienes a tu disposición
+## You have us at your disposal
 
-Nos especializamos en trabajar como una extensión de tu equipo para asegurarnos de que nuestras soluciones tengan un efecto estratégico en tu negocio.
+We specialize in working as an extension of your team to ensure our solutions have a strategic effect on your business.
 
-## Capacita a los clientes para que se ayuden a sí mismos
+## Empower customers to help themselves
 
-Con el servicio de soporte los clientes pueden resolver los problemas a su propio ritmo, y a la vez se reduce el tiempo de resolución de los agentes para que puedan dedicarse a otras tareas.
+Helpdesk allows customers to resolve issues at their own pace, while reducing agent resolution time so they can focus on other tasks.

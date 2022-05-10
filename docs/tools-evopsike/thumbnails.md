@@ -1,5 +1,5 @@
 # Thumbnails
 
-Genere minuaturas de imagenes con nuestra poderosa herramienta en cuestiones de segundos, las minuaturas son una versión de una imagen pero más pequeña, lo cual le permite renderizar imagenes a una alta velocidad debido a que las miniaturas son pequeñas tanto en peso como en dimensión.
+Generate image thumbnails with our powerful tool in seconds, thumbnails are a smaller version of an image, which allows you to render images at high speed because thumbnails are small in both weight and dimension.
 
-para generar miniaturas de imagenes, haga click sobre el botón `Crear thumbnails`, luego suministre las imagenes que desea transformar y luego puede descargar las miniaturas generadas.
+to generate image thumbnails, click on the `Create thumbnails` button, then supply the images you want to transform and then you can download the generated thumbnails.

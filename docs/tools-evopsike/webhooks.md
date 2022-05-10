@@ -1,18 +1,18 @@
 # Webhooks
 
-Los webhooks son eventos que desencadenan acciones entre sistemas, de esta manera puedes generar información con nuestras herramientas y posteriormente enviarlas a tu sistema a través de los webhooks.
+Webhooks are events that trigger actions between systems, so you can generate information with our tools and then send it to your system through webhooks.
 
-para agregar un nuevo webhook haga click sobre el botón `Crear webhook`, luego agrege la dirección url donde posteriormente se enviaran los datos.
+to add a new webhook click on the button `Create webhook`, then add the url address where the data will be sent later.
 
-## Ejemplo
+## Example
 
 ```
 curl --request POST
-     --url https://example.com/api/variantes/productos
+     --url https://example.com/api/variants/products
      --header 'Content-Type: application/*+json'
      --data 
      {
-         "propiedad1": "valor1",
-         "propiedad2": "valor2",
+         "property1": "value1",
+         "property2": "value2",
      }
 ```

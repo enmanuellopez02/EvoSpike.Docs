@@ -1,12 +1,12 @@
 # Emails
 
-Emita correos electrónicos con nuestra api de emails de una manera muy fácil, registre su correo electrónico en la herramienta de emails la cual le asignara una api key que debe guardar en un lugar seguro, luego adjunte la información que desea enviar junto con su api key y nuestra api enviara un correo electrónico con su configuración de manera gratuita y segura.
+Send emails with our email api in a very easy way, register your email in the email tool which will assign you an api key that you must keep in a safe place, then attach the information you want to send along with your api key and our api will send an email with your configuration for free and safely.
 
-para generar un api key, haga click sobre el botón `Crear email api key`, luego suministre su correo electronico y su nombre, luego haga click en `Agregar`, esto creara un api key unico para esta configuración.
+to generate an api key, click the `Create email api key` button, then supply your email and name, then click `Add`, this will create a unique api key for this configuration.
 
-el siguiente paso para enviar correos electronicos es copiar el api key y realizar una solicitud a nuestra api.
+the next step to send emails is to copy the api key and make a request to our api.
 
-## Ejemplo
+## Example
 
 ```
 curl --request POST
@@ -15,8 +15,8 @@ curl --request POST
      --data 
      {
          "To": "prueba@hotmail.com",
-         "Subject": "Título",
-         "PlainTextContent": "Hola esto es una prueba",
+         "Subject": "Title",
+         "PlainTextContent": "Hello this is a test",
          "HtmlContent": "<strong>and easy to do anywhere</strong>",
          "ApiKey": "203ec27a-a7f2-497a-978a-6a28efd2eb00"
      }
