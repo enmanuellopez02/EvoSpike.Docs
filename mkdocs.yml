@@ -10,6 +10,8 @@ nav:
         - Thumbnails: tools-evopsike/thumbnails.md
         - Variants: tools-evopsike/product-variations.md
         - Webhooks: tools-evopsike/webhooks.md
+    - 'Support Evospike':
+        - Cumplimiento: support-evopsike/cumplimientos-json-format.md
 
 extra_css:
     - stylesheets/extra.css
