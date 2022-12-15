@@ -14,7 +14,7 @@ nav:
         - Cumplimiento: support-evopsike/cumplimientos-json-format.md
         - Integraciones: 
           - Facebook: support-evopsike/facebook-integracion.md
-          - Whatsapp: support-evopsike/whatsapp-integracion.md
+          - Whatsapp: support-evopsike/whatsapp-360dialog-integracion.md
 
 extra_css:
     - stylesheets/extra.css
